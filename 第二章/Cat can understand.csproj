@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2774324E-1CBE-4167-81E2-282EAD3A86FF}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>第二章</RootNamespace>
+    <AssemblyName>第二章</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="4.1expression01.cs" />
+    <None Include="3.16練習問題.cs" />
+    <None Include="3.15string01.cs" />
+    <None Include="3.14object01.cs" />
+    <None Include="3.12cast01.cs" />
+    <None Include="3.11scope01.cs" />
+    <None Include="3.10var01.cs" />
+    <None Include="3.9literal01.cs" />
+    <None Include="3.8bool01.cs" />
+    <None Include="3.7.2escape01.cs" />
+    <None Include="3.7.1type08.cs" />
+    <None Include="3.6type07.cs" />
+    <None Include="3.5type05.cs" />
+    <None Include="3.5type04.cs" />
+    <None Include="3.4type03.cs" />
+    <None Include="3.4type02.cs" />
+    <None Include="3.4type01.cs" />
+    <None Include="3.1shokika.cs" />
+    <None Include="2.6練習問題.cs" />
+    <None Include="2.5readline01.cs" />
+    <None Include="2.4text07.cs" />
+    <None Include="2.4text06.cs" />
+    <None Include="2.4text05.cs" />
+    <None Include="2.4text04.cs" />
+    <None Include="2.4text03.cs" />
+    <None Include="2.3text02.cs" />
+    <None Include="2.3text01.cs" />
+    <None Include="2.1myname01.cs" />
+    <None Include="4.5-4.7.cs" />
+    <None Include="4.8練習問題.cs" />
+    <None Include="8.3main02.cs" />
+    <Compile Include="8.3main01.cs" />
+    <None Include="8.6prop02.cs" />
+    <None Include="8.8練習問題.cs" />
+    <None Include="8.7indexer02.cs" />
+    <None Include="9.9.13-3%28例外%29.cs" />
+    <None Include="9.1-%28継承%29.cs" />
+    <None Include="8.8練習問題22.cs" />
+    <None Include="8.8練習問題2.cs" />
+    <None Include="8.1-%28クラスとメソッドの詳細%29.cs" />
+    <None Include="7.1-%28クラスの基礎%29 .cs" />
+    <None Include="6.1-%28配列%29.cs" />
+    <None Include="5.1-%28制御文%29.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

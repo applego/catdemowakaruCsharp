@@ -1,0 +1,6 @@
+c:\users\常重　友佑\documents\visual studio 2017\Projects\第二章\第二章\bin\Debug\第二章.exe.config
+c:\users\常重　友佑\documents\visual studio 2017\Projects\第二章\第二章\bin\Debug\第二章.exe
+c:\users\常重　友佑\documents\visual studio 2017\Projects\第二章\第二章\bin\Debug\第二章.pdb
+c:\users\常重　友佑\documents\visual studio 2017\Projects\第二章\第二章\obj\Debug\第二章.csprojResolveAssemblyReference.cache
+c:\users\常重　友佑\documents\visual studio 2017\Projects\第二章\第二章\obj\Debug\第二章.exe
+c:\users\常重　友佑\documents\visual studio 2017\Projects\第二章\第二章\obj\Debug\第二章.pdb
